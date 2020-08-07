@@ -1,6 +1,6 @@
 # GoBike: Data Visualization Project
 
-This project was created to analyze the Ford GoBike Dataset from Bay Wheels to extract insights and behaviours about individual bike rides made in a bike-sharing system covering the greater San Francisco Bay area.
+This project was created to analyze the [Ford GoBike Dataset from Bay Wheels](https://www.lyft.com/bikes/bay-wheels/system-data) to extract insights and behaviours about individual bike rides made in a bike-sharing system covering the greater San Francisco Bay area.
 
 The visual analysis of the dataframe will focus in analyze and provide insights to 3 questions :
 
@@ -14,16 +14,16 @@ The dataset used in the project was from Ford GoBike System Data. It was extract
 
 ## Packages
 
-The project requires installation of the following packages: `Pandas`, `Numpy`, `Matplotlib`, `Seaborn` `Glob` and the magic function `%Matplotlib inline`.
+The project requires the installation of the following packages: `Pandas`, `Numpy`, `Matplotlib`, `Seaborn` `Glob` and the magic function `%Matplotlib inline`.
 
 ## Structure
 
 It is possible to verify the following sections in the project:
 
-I - Data Wrangling
-II - Visual Data Analysis
-III- Conclusions
-IV - References
+* Part I - Data Wrangling
+* Part II - Visual Data Analysis
+* Part III- Conclusions
+* Part IV - References
 
 ## Exploratory Analysis
 
@@ -44,7 +44,7 @@ Analyzing the dataset, it was possible to observe that 3 main features: Duration
 
 * Average duration of bike rides are between 5 to 20 minutes;
 * As data is from San Francisco (North Hemisphere), winter takes place in the months of November-January, resulting in bike rides with a shorter duration. The months from July to October shows more bike rides with 200 or more;
-* From the plot above, it is possible to analyze that most subscribers prefer to take bike rides and spend up to 400 minutes. These rides last longer during the warmer months of the year. Rides that last longer than 400 minutes usually are performed by Customers.
+* Most subscribers prefer to take bike rides and spend up to 400 minutes. Rides that last longer than 400 minutes usually are performed by Customers.
 
 ## Conclusions
 
