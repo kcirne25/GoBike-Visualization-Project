@@ -2,15 +2,15 @@
 
 This project was created to analyze the [Ford GoBike Dataset from Bay Wheels](https://www.lyft.com/bikes/bay-wheels/system-data) to extract insights and behaviours about individual bike rides made in a bike-sharing system covering the greater San Francisco Bay area.
 
-The visual analysis of the dataframe will focus in analyze and provide insights to 3 questions :
+The visual analysis of the database focus in analyzing and provide insights to 3 questions:
 
 * What is the average duration of bike rides?
-* Does people prefer to ride bikes in some specific months?
-* Is there a difference in the duration of bike rides from subscribers or a customers? 
+* Do people prefer to ride bikes in any specific months?
+* Is there a difference in the duration of bike rides from subscribers or customers? 
 
 ## Datasets
 
-The dataset used in the project was from Ford GoBike System Data. It was extracted from GoBike System Data 12 csv files, from July 2019 to June 2020. During the exploratory analysis, it was seen that data from April 2020 to June 2020 had a different syntax construction from other files. Because of this issue, these csv files were excluded from the analysis, so data from 9 months was analyzed.
+The dataset used in the project was from Ford GoBike System Data. Twelve csv files were extracted from GoBike System Data, from July 2019 to June 2020. During the exploratory analysis, it was seen that data from April 2020 to June 2020 has a different syntax construction from other files. Because of this issue, these csv files were excluded from the analysis, so data from 9 months was analyzed.
 
 ## Packages
 
@@ -27,7 +27,7 @@ It is possible to verify the following sections in the project:
 
 ## Exploratory Analysis
 
-Analyzing the dataset, it was possible to observe that 3 main features: Duration of a bike ride, Months were a bike was rented and type of user. It was also possible to visualyze that months could easilly be extracted and ''transfered'' to a new column and to turn the analysis more 'human friendly', a new Duration of Rides in Minutes column was created.
+Analyzing the dataset, it was possible to observe 3 main features: Duration of a bike ride, Months where a bike was rented and Type of user. It was also possible to visualyze that months could easilly be extracted and 'transfered' to a new column. To turn the analysis more 'user friendly', a new Duration of Rides in Minutes column was created.
 
  ### Summary Of Findings
 
@@ -37,13 +37,13 @@ Analyzing the dataset, it was possible to observe that 3 main features: Duration
 - There is a total of 1490110 subscribers and 669531 customers;
 - San Francisco Caltrain (with 30813 entries) is the most common start station to rent a bike, followed by Berry St (28649 entries) and Market St (28174 entries);
 - The log plot turns it easier to analyze the distribution of bike rides;
-- Customers spend on average 17.5 minutes in rides, while subscribers spend almost 12.5 minutes;
-- With this heatmap it was possible to verify that subscribers possibly use this rent system to daily tasks like going to work, supermarket or school, for example.   
+- Customers spend on average 17.5 minutes riding a bike, while subscribers spend almost 12.5 minutes;
+- With the heatmap visualization, it was possible to verify that subscribers possibly use this rent system for daily tasks like going to work, supermarket or school, for example.   
 
  ### Key insights
 
-* Average duration of bike rides are between 5 to 20 minutes;
-* As data is from San Francisco (North Hemisphere), winter takes place in the months of November-January, resulting in bike rides with a shorter duration. The months from July to October shows more bike rides with 200 or more;
+* Average duration of bike rides is between 5 to 20 minutes;
+* As data is from San Francisco (North Hemisphere), winter takes place in the months of November-January, resulting in bike rides with a shorter duration. The months from July to October shows more bike rides with 200 or more minutes;
 * Most subscribers prefer to take bike rides and spend up to 400 minutes. Rides that last longer than 400 minutes usually are performed by Customers.
 
 ## Conclusions
@@ -54,7 +54,7 @@ A log plot turned it easier to analyze the distribution from bike rides, which u
 
 Bike rides had shorter duration during colder months of the year. Warmer months (July to October) showed more bike rides with 200 or more minutes.
 
-The Multivariate Exploration shows valuable insights when it is needed to analyze a third variable. It was possible to verify that most subscribers prefer to take bike rides and spend up to 400 minutes. These rides last longer during the warmer months of the year.
+The Multivariate Exploration shows valuable insights when it is needed to analyze a third variable. It was possible to verify that most subscribers prefer to take bike rides and spend up to 400 minutes riding a bike. These rides last longer during the warmer months of the year.
 
 Rides that last longer than 400 minutes usually are performed by Customers.
 
